@@ -1,10 +1,10 @@
 type newType = string | number | null;
 
-function myFunc(obj : newType){
+function oneFunc(obj : newType){
   console.log(obj);
 }
 
-myFunc("Rohan Pise");
+oneFunc("Rohan Pise");
 
 
 type newUser = {
